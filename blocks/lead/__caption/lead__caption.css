@@ -1,0 +1,52 @@
+.lead__caption {
+    font-family: 'Inter-Regular';
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    margin-top: 18px;
+    color: #FFFFFF;
+    align-self: flex-start;
+    
+}
+
+@media screen and (min-width:1280px) {     
+    .lead__caption {
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.15em;
+        margin: 8px 0 0 0px;
+    }
+}
+/*
+@media screen and (max-width:1280px) {     
+    .lead__caption {
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.15em;
+        margin-top: 11px;
+    }
+}
+
+@media screen and (max-width:1024px) {     
+    .lead__caption {
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.15em;
+        margin-top: 11px;
+    }
+}
+*/
+@media screen and (max-width:768px) {     
+    .lead__caption {
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.15em;
+        margin: 8px 0 0 17px;;
+    }
+}
+
+
+
+

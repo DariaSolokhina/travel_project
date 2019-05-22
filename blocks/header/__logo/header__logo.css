@@ -1,0 +1,48 @@
+@import url('../__lang/_select/header__lang_select.css');
+
+.header__logo {
+    width: 177px;
+    height: 52px;
+    margin: 29px 127px;
+
+}
+
+@media screen and (max-width:1279px) {     
+    .header__logo {
+        width: 177px;
+        height: 52px;
+        margin: 29px 48px;
+    }
+}
+
+@media screen and (max-width:1023px) {     
+    .header__logo {
+        width: 177px;
+        height: 52px;
+        margin: 29px 23px;
+    }
+}
+
+@media screen and (max-width:767px) {     
+    .header__logo {
+        width: 177px;
+        height: 52px;
+        margin: 15px 0 0 15px;
+    }
+}
+
+@media screen and (max-width:374px) {     
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        margin: 15px 0 0 15px;
+    }
+}
+
+
+
+
+
+
+
+

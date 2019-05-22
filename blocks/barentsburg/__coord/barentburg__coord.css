@@ -1,0 +1,30 @@
+.barentsburg__coord {
+    width: 583px;
+    font-family: 'Inter-Regular';
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+    
+}
+
+@media screen and (max-width:767px) {     
+    .barentsburg__coord  {
+        width: 343px;
+        font-size: 16px;
+        line-height: 23px; 
+        margin-left: 16px;    
+    }
+}
+
+@media screen and (max-width:374px) {     
+    .barentsburg__coord  {
+        width: 288px;
+        font-size: 16px;
+        line-height: 23px;  
+        margin-left: 16px;  
+    }
+}
+

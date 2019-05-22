@@ -1,0 +1,56 @@
+@import url('../lead/__title/lead__title.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__caption/lead__caption.css');
+@import url('../lead/__img/lead__img.css');
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+a:hover {
+    opacity: .7;
+}
+
+
+@media screen and (min-width:1280px) {     
+    .lead {
+        width: 984px;
+        margin: 0 auto;
+    }
+} 
+
+@media screen and (max-width:1279px) {     
+    .lead {
+        width: 928px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1023px) {     
+    .lead {
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:767px) {     
+    .lead {
+        width: 375px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:374px) {     
+    .lead {
+        width: 320px;
+        margin: 0 auto;
+    }
+}
+

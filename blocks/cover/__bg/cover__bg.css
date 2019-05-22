@@ -1,0 +1,38 @@
+.cover__bg {
+    width: 1184px;
+    height: 594px;
+    opacity: .8;
+}
+
+.cover__bg:hover {
+    opacity: .2;
+}
+
+@media screen and (max-width:1279px) {     
+    .cover__bg {
+        width: 1024px;
+        height: 591px;
+    }
+}
+
+@media screen and (max-width:1023px) {     
+    .cover__bg {
+        width: 768px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:767px) {     
+    .cover__bg {
+        width: 375px;
+        height: 272px;
+    }
+}
+
+@media screen and (max-width:374px) {     
+    .cover__bg {
+        width: 320px;
+        height: 216px;
+    }
+}
+

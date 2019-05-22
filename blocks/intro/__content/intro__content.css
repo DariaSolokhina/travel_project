@@ -1,0 +1,16 @@
+@import url('../__content/__content-text/intro__content-text.css');
+
+.intro__content {
+    display: flex;
+   
+}
+
+
+
+@media screen and (max-width:1023px) {     
+    .intro__content {
+       flex-direction: column-reverse;
+    }
+}
+
+

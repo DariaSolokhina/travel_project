@@ -1,0 +1,51 @@
+@import url('../__container/__container-comment/comments__container-comment.css');
+
+
+.comments__container {
+    display: flex;
+    
+}
+@media screen and (min-width:1280px) {     
+    .comments__container {
+        width: 1184px;
+        margin: 62px auto;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1279px) {     
+    .comments__container {
+        width: 925px;
+        margin: 62px auto;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {     
+    .comments__container {
+        width: 382px;
+        display: flex;
+        flex-direction: column;
+        margin: 62px auto;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {     
+    .comments__container {
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto 20px;
+    }
+}
+
+@media screen and (max-width:374px) {     
+    .comments__container {
+        width: 288px;
+        display: flex;
+        flex-direction: column;
+        margin: 32px auto 20px;
+    }
+}
+

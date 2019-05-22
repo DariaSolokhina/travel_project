@@ -1,0 +1,21 @@
+.place__website-url {
+    font-family: 'Inter-Regular';
+    font-weight: normal;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #FFFFFF;
+    margin: 0;
+}
+@media screen and (min-width:768px) and (max-width:1023px){  
+    .place__website-url {   
+    margin: 0;
+    }
+}
+
+@media screen and (max-width:767px) {  
+    .place__website-url {   
+    margin: 0 0 0 16px;
+    }
+}

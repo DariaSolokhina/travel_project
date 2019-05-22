@@ -1,0 +1,53 @@
+@import url('../__container/__text/barentsburg__text.css');
+@import url('../__container/__url/barentsburg__url.css');
+
+
+@media screen and (min-width:1280px) {     
+    .barentsburg__container {
+        width: 1184px;
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 85px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {     
+    .barentsburg__container {
+        width: 928px;
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 30px;
+        
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {     
+    .barentsburg__container {
+        width: 720px;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {     
+    .barentsburg__container {
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        
+    }
+}
+
+@media screen and (max-width:374px) {     
+    .barentsburg__container {
+        width: 288px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        
+    }
+}
+

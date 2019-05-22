@@ -1,0 +1,34 @@
+@import url('../__logo/header__logo.css');
+@import url('../__lang/header__lang.css');
+@import url('../__lang/_select/header__lang_select.css');
+
+.header__container {
+    display: flex;
+    margin: 50px 130px;
+}
+
+@media screen and (max-width:1279px) {     
+    .header__container {
+        margin: 50px 49px 24px;
+    }
+}
+
+@media screen and (max-width:1023px) {     
+    .header__container {
+        margin: 50px 22px 24px;
+}
+}
+
+@media screen and (max-width:767px) {     
+    .header__container {
+        margin: 35px 18px 18px;
+    }
+}
+
+
+
+
+
+
+
+

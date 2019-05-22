@@ -1,0 +1,41 @@
+.video__item-bg {
+    width: 583px;
+    height: 323px;
+    border-radius: 6px;
+    opacity: .6;
+
+}
+
+.video__item-bg:hover {
+    opacity: .2;
+}
+
+@media screen and (max-width:1279px) {     
+    .video__item-bg {
+        width: 456px;
+        height: 288px;    
+    }
+}
+
+@media screen and (max-width:1023px) {     
+    .video__item-bg {
+        width: 352px;
+        height: 200px;    
+    }
+}
+
+@media screen and (max-width:767px) {     
+    .video__item-bg {
+        width: 343px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:374px) {     
+    .video__item-bg {
+        width: 288px;
+        height: 192px;
+        
+    }
+}
+

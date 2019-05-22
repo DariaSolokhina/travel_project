@@ -1,0 +1,48 @@
+.comments__container-autor {
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+
+}
+
+@media screen and (min-width:1280px) {     
+   
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {     
+  
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {     
+    .comments__container-autor {
+        margin: 0 auto;
+        position: absolute;
+        top: 112px;
+        left: 128px;
+    
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {     
+    .comments__container-autor {
+        margin: 0 auto;
+        position: absolute;
+        top: 112px;
+        left: 108px;
+    
+    }
+}
+
+@media screen and (max-width:374px){     
+    .comments__container-autor {
+        margin: 0 auto;
+        position: absolute;
+        top: 113px;
+        left: 80px;
+    
+    }
+}
