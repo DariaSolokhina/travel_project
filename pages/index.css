@@ -1,0 +1,88 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/content-title/content-title.css');
+@import url('../blocks/content-subtitle/content-subtitle.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/additional/additional.css');
+@import url('../blocks/barentsburg/barentsburg.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    src: url('../blocks/fonts/Inter-Black.woff2') format("woff2"),
+         url('../blocks/fonts/Inter-Black.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    font-style:  normal;
+    font-weight: 400;
+    src: url('../blocks/fonts/Inter-Regular.woff2') format("woff2"),
+         url('../blocks/fonts/Inter-Regular.woff') format("woff");
+}
+
+.bg-container {
+    margin: 0;
+    padding: 0;
+    background-color: #2A2C2F;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 1440px;
+    width: 100%;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #2A2C2F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+    max-width: 1440px;
+    font-family: 'Inter';
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1279px) {     
+    .main {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {     
+    .main {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {     
+    .main {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:374px) {     
+    .main {
+        max-width: 320px;
+    }
+}
